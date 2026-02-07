@@ -13,4 +13,13 @@ def print_hi(name):
 if __name__ == '__main__':
     print("Hello Github!")
 
+name = str(input("What is your name?: "))
+print(f"Hello, {name}!")
+
+subject = str(input("What is your favorite subject?: "))
+print(f"{subject} Nice!")
+
+age = int(input("How old are you?: "))
+print(f"{age} years old!")
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
